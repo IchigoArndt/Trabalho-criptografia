@@ -1,0 +1,10 @@
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\bin\Debug\TrabCrip.apresentacao.exe.config
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\bin\Debug\TrabCrip.apresentacao.exe
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\bin\Debug\TrabCrip.apresentacao.pdb
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.csprojAssemblyReference.cache
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.menuPrincipal.resources
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.Properties.Resources.resources
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.csproj.GenerateResource.cache
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.csproj.CoreCompileInputs.cache
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.exe
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.pdb

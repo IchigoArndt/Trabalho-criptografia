@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Funcionalidades\AlgRSA\FormRSA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionalidades\AlgRSA\FormRSA.Designer.cs">
+      <DependentUpon>FormRSA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionalidades\AlgRSHA\FormRSHA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionalidades\AlgRSHA\FormRSHA.Designer.cs">
+      <DependentUpon>FormRSHA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionalidades\AlgSHA256\FormSHA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionalidades\AlgSHA256\FormSHA.Designer.cs">
+      <DependentUpon>FormSHA.cs</DependentUpon>
+    </Compile>
     <Compile Include="menuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Funcionalidades\AlgRSA\FormRSA.resx">
+      <DependentUpon>FormRSA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionalidades\AlgRSHA\FormRSHA.resx">
+      <DependentUpon>FormRSHA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionalidades\AlgSHA256\FormSHA.resx">
+      <DependentUpon>FormSHA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrabCrip.Infra\TrabCrip.Infra.csproj">
+      <Project>{F618DBB0-7DDB-499D-B2DD-35E37E09C6B7}</Project>
+      <Name>TrabCrip.Infra</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

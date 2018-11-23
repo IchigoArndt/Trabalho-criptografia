@@ -8,3 +8,9 @@ C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\Trab
 C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.csproj.CoreCompileInputs.cache
 C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.exe
 C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.pdb
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\bin\Debug\TrabCrip.Infra.dll
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\bin\Debug\TrabCrip.Infra.pdb
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.Funcionalidades.FormRSA.resources
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.csproj.CopyComplete
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.Funcionalidades.AlgSHA256.FormSHA.resources
+C:\Worksapce\Trabalho-criptografia\TrabCrip\TrabCrip.apresentacao\obj\Debug\TrabCrip.apresentacao.Funcionalidades.AlgRSHA.FormRSHA.resources

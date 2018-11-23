@@ -44,6 +44,7 @@
     <Compile Include="CriptografiaRSA.cs" />
     <Compile Include="CriptografiaSHA256.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RSHA.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

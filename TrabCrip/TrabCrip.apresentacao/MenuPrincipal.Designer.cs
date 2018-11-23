@@ -41,6 +41,7 @@
             this.btnRSA.TabIndex = 0;
             this.btnRSA.Text = "RSA";
             this.btnRSA.UseVisualStyleBackColor = true;
+            this.btnRSA.Click += new System.EventHandler(this.btnRSA_Click);
             // 
             // btnSHA
             // 
@@ -50,6 +51,7 @@
             this.btnSHA.TabIndex = 1;
             this.btnSHA.Text = "SHA 256";
             this.btnSHA.UseVisualStyleBackColor = true;
+            this.btnSHA.Click += new System.EventHandler(this.btnSHA_Click);
             // 
             // btnRSHA
             // 
@@ -59,6 +61,7 @@
             this.btnRSHA.TabIndex = 2;
             this.btnRSHA.Text = "RSA + SHA 256";
             this.btnRSHA.UseVisualStyleBackColor = true;
+            this.btnRSHA.Click += new System.EventHandler(this.btnRSHA_Click);
             // 
             // menuPrincipal
             // 

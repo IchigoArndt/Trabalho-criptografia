@@ -24,14 +24,14 @@ namespace TrabCrip.apresentacao.Funcionalidades.AlgRSHA
 
         private void btnEncriptar_Click(object sender, EventArgs e)
         {
-            textocifrado = RSHA.getRSHA(txtTexto.Text);
-            lbEncrip.Items.Add(ByteConverter.GetString(textocifrado));
+            lbEncrip.Items.Add(RSHA.getRSHA(txtTexto.Text));
+
+            MessageBox.Show("RSA Gerado : "+ ByteConverter.GetString(RSHA.RSAGerado()));        
         }
 
         private void btnDecriptar_Click(object sender, EventArgs e)
         {
-            textoDecifrado = RSHA.getSHA(textocifrado);
-            lbDecript.Items.Add(ByteConverter.GetString(textoDecifrado));
+            lbDecript.Items.Add(ByteConverter.GetString(RSHA.TextoAntesCriptografia()));
         }
     }
 }

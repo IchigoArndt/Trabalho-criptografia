@@ -10,21 +10,29 @@ namespace TrabCrip.Infra
     public class RSHA
     {
         static byte[] textoCifrado;
+        static byte[] textoRSA;
         static RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
         static UnicodeEncoding ByteConverter = new UnicodeEncoding();
 
-        public static byte[] getRSHA(string texto)
+        public static string getRSHA(string texto)
         {
             
-            textoCifrado = ByteConverter.GetBytes(AlgSHA.GenerateSHA256String(texto));
+            textoCifrado = ByteConverter.GetBytes(texto);
 
-            return CriptografiaRSA.RSACifra(textoCifrado, rsa.ExportParameters(false),false);
+            textoRSA = CriptografiaRSA.RSACifra(textoCifrado, rsa.ExportParameters(false),false);
+
+            return AlgSHA.GenerateSHA256String(ByteConverter.GetString(textoRSA));
 
         }
 
-        public static byte[] getSHA(byte[] textoCifrado)
+        public static byte[] TextoAntesCriptografia()
         {
-            return CriptografiaRSA.RSADecifra(textoCifrado, rsa.ExportParameters(true), false);
+            return textoCifrado;
+        }
+
+        public static byte[] RSAGerado()
+        {
+            return textoRSA;
         }
     }
 }
